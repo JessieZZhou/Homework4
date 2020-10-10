@@ -31,7 +31,6 @@ nav a{
   color: black;
   font-weight: bold;
   text-decoration: none; 
-  vertical-align: middle;
 }
 
 /*Your Code Here*/
@@ -66,7 +65,7 @@ nav a:hover, a:focus{
 nav{
   background-color: #ddd;
   padding: 25px 0;
-  text-align: left;
+  text-align: right;
   vertical-align: middle;
   align-items: center;
 }
