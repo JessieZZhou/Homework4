@@ -31,6 +31,7 @@ nav a{
   color: black;
   font-weight: bold;
   text-decoration: none; 
+  vertical-align: middle;
 }
 
 /*Your Code Here*/
@@ -66,6 +67,7 @@ nav{
   background-color: #ddd;
   padding: 25px 0;
   text-align: left;
+  vertical-align: middle;
   align-items: center;
 }
 
@@ -115,7 +117,7 @@ header p{
   /*Your Code Here*/
   grid-column: 2/ span 1;
   grid-row: 2/ auto;
-  overflow: hidden; /*keep images escaping from the cell*/
+  overflow: hidden; /*keep images escaping from the cell, use on image not text, otherwise people not able to read*/
 
 }
 
