@@ -66,6 +66,7 @@ nav{
   background-color: #ddd;
   padding: 25px 0;
   text-align: right;
+  vertical-align: middle;
 }
 
 footer{
@@ -81,9 +82,9 @@ footer{
 .container{
   /*Your Code Here*/
   display: grid;
+  grid-row-gap: 15px;
   grid-template-columns: 1fr 5fr 1fr;
   grid-template-rows: auto auto auto auto auto;
-
 }
 
 header{
@@ -99,7 +100,7 @@ header{
   background-repeat: no-repeat;
 
 
-  grid-column: 1 / -1;  /*Can you explain what this does?*/
+  grid-column: 1 / -1;  /*Can you explain what this does?     Ans: -1 goes all the way to the end*/
   grid-row: 1 / auto;   /*Can you rewrite it?*/
 }
 
